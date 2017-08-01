@@ -43,13 +43,7 @@ public:
 	}
 };
 
-class E : public C{
-public:
-	void s(){
-		C::s();
 
-	}
-};
 void main(){
 	A objA;
 	objA.AshowPublic();
@@ -59,7 +53,5 @@ void main(){
 	objC.s();
 	D objD;
 	objD.s();
-	E objE;
-	objE.s();
 	system("pause");
 }
